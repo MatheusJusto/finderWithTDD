@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="headerContainer">
+                <div class="logo">
+                    <h1>
+                        Github finder
+                    </h1>
+                </div>
+                <div class="switchTemplate">
+                    <label class="switch">
+                        <input type="checkbox" id="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="searchContainer">
+        <input type="text" id="texto" placeholder="Github user"><a href="#" id="sendTxt">SEARCH</a>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="cardImg">
+                <img src="" alt="" id="userImg">
+            </div>
+            <div class="cardTxt">
+                <h2 id="userTitle"></h2>
+                <p id="userLocation"></p>
+                <ul>
+                    <li>Repositories: <span id="userRep"></span></li>
+                    <li>Followers:<span id="userFollowers"></span></li>
+                    <li>Following:<span id="userFollowing"></span></li>
+                </ul>
+                <a href="" id="userLink">GITHUB</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="src/main.js"></script>
+</body>
+
+</html>
